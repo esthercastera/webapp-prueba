@@ -1,0 +1,38 @@
+.web-footer {
+    box-sizing: border-box;
+    background: fade-out($colorbarras, 0.15);//;
+    color:$colortitulos;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    transition: background 0.2s;
+    font-family: $main-font-family;
+
+    &:hover {
+        background:$colorbarrasH;
+    }
+    .subir{
+       text-transform: uppercase;
+       font-size:$font-size-base;
+
+    }
+    .web-title {
+       
+       font-weight: bold;
+       text-transform: uppercase;
+       font-size:$font-size-base;
+    }
+    .info{
+       font-size:$font-size-small;
+       
+    }
+    
+
+    a {
+        color: $colortitulos;
+        text-decoration: none;
+        padding-right: 15px;
+    }
+}
+

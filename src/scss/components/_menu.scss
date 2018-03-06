@@ -1,0 +1,27 @@
+#principio{
+    background-image: url("img/todos.jpg");
+    background-size: cover;
+    background-position: center;
+    @include if-desktop {
+        background-image: url("img/ordenador.jpg");  
+        background-size: cover;
+        background-position: center; 
+    }
+}
+nav ul{
+    width: 100%;
+    background-color:$colorbarras;
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    
+    font-size:$font-size-base;
+    display: inline-block; /* para que no se añadan saltos de línea */
+    padding: 5px;
+    font-weight: 100;
+
+}
+
+    
+   

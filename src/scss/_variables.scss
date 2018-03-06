@@ -1,0 +1,44 @@
+// Font families
+$main-font-family: 'Roboto', sans-serif;
+
+// Font sizes
+$font-size-detalleN:80px;
+$font-size-detaleT:30px;
+$font-size-detalle: 20px;
+$font-size-base: 15px;
+$font-size-medium: 10px;
+$font-size-small: 8px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+
+// Base colors
+$colorbarras: rgb(71, 69, 69);
+$colorbarrasH: rgb(211, 207, 207);
+
+
+// Main components colors
+$colortitulos: rgb(248, 248, 228);
+$colortitulosH: rgb(105, 97, 97);
+$colortitulosV: rgb(54, 51, 51);
+$colorSomos: rgb(211, 207, 207);
+
+$colorbordeform:rgb(71, 69, 69);
+$colorform:rgb(211, 207, 207);
+$colorboton:rgb(39, 37, 37);
+
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+

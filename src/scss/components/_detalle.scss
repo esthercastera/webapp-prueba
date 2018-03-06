@@ -1,0 +1,80 @@
+.detalle{
+        
+
+    .nombre{
+        font-size: $font-size-detalleN;
+        color: $colortitulosV;
+        width: 100%;
+        font-weight: bold;
+        padding: 10px;
+        margin: 5px;
+    }
+    .conjunto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include if-desktop {
+
+            flex-direction: row;
+        }
+        @include if-tablet-portrait {
+            flex-direction: row;
+             
+        }
+        
+        .image{
+           display: flex;
+           justify-content: center;
+            
+            
+        }
+        .descripcion{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .titulo{
+                font-weight: bold;
+                font-size: $font-size-detaleT;
+            }
+
+            .curriculum{
+                margin: 15px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                
+            }
+            
+            
+                
+                
+
+           
+            
+            .horarios{
+                margin: 15px;
+                background: $colorSomos;
+                border-radius: 5px;
+                .negrita{
+                    font-weight: bold;
+                }
+                .cursiva{
+                    font-style: italic;
+                }
+                
+
+            }
+            .enlace{
+                margin: 15px;
+                background: $colorSomos;
+                border-radius: 5px;
+            }
+
+        }
+    }
+    
+            
+    
+}
+
